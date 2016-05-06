@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18220ED51CDCBEC1006C2F7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */; };
+		18220ED71CDCC194006C2F7B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18220ED61CDCC194006C2F7B /* ShadowView.swift */; };
 		1850DAD91CDCB71000DE7AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */; };
-		1850DADB1CDCB71000DE7AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DADA1CDCB71000DE7AC4 /* ViewController.swift */; };
 		1850DADE1CDCB71000DE7AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DADC1CDCB71000DE7AC4 /* Main.storyboard */; };
 		1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */; };
 		1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */; };
 		1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */; };
+		18DC6BE21CDCDF980023B87B /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */; };
+		18DC6BE41CDCE10B0023B87B /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */; };
+		18DC6BE81CDCE7B40023B87B /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE51CDCE7B40023B87B /* 33.jpg */; };
+		18DC6BE91CDCE7B40023B87B /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE61CDCE7B40023B87B /* 22.jpg */; };
+		18DC6BEA1CDCE7B40023B87B /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE71CDCE7B40023B87B /* 11.jpg */; };
+		18DC6BEC1CDCE8F50023B87B /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */; };
+		18DC6BEE1CDCE9C10023B87B /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BED1CDCE9C10023B87B /* 44.jpg */; };
+		47F71A8FD2AF35F6330F40C1 /* Pods_CondoDefect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA042357775AF69986A2665F /* Pods_CondoDefect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18220ED61CDCC194006C2F7B /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		1850DAD51CDCB70F00DE7AC4 /* CondoDefect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondoDefect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1850DADA1CDCB71000DE7AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1850DADD1CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1850DAE01CDCB71000DE7AC4 /* CondoDefect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CondoDefect.xcdatamodel; sourceTree = "<group>"; };
 		1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1850DAE51CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1850DAE71CDCB71000DE7AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		18DC6BE51CDCE7B40023B87B /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		18DC6BE61CDCE7B40023B87B /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		18DC6BE71CDCE7B40023B87B /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		18DC6BED1CDCE9C10023B87B /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		5F7F2D903625997A10014118 /* Pods-CondoDefect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondoDefect.release.xcconfig"; path = "Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect.release.xcconfig"; sourceTree = "<group>"; };
+		A234D97B6309656B6998D38C /* Pods-CondoDefect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondoDefect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect.debug.xcconfig"; sourceTree = "<group>"; };
+		FA042357775AF69986A2665F /* Pods_CondoDefect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CondoDefect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F71A8FD2AF35F6330F40C1 /* Pods_CondoDefect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				1850DAD71CDCB70F00DE7AC4 /* CondoDefect */,
 				1850DAD61CDCB70F00DE7AC4 /* Products */,
+				A58360D218C64A8D73E35F5A /* Pods */,
+				2C587067E7855E3A6B192811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +80,39 @@
 			isa = PBXGroup;
 			children = (
 				1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */,
-				1850DADA1CDCB71000DE7AC4 /* ViewController.swift */,
 				1850DADC1CDCB71000DE7AC4 /* Main.storyboard */,
 				1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */,
 				1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */,
 				1850DAE71CDCB71000DE7AC4 /* Info.plist */,
 				1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */,
+				18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */,
+				18220ED61CDCC194006C2F7B /* ShadowView.swift */,
+				18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */,
+				18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */,
+				18DC6BED1CDCE9C10023B87B /* 44.jpg */,
+				18DC6BE51CDCE7B40023B87B /* 33.jpg */,
+				18DC6BE61CDCE7B40023B87B /* 22.jpg */,
+				18DC6BE71CDCE7B40023B87B /* 11.jpg */,
+				18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */,
 			);
 			path = CondoDefect;
+			sourceTree = "<group>";
+		};
+		2C587067E7855E3A6B192811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA042357775AF69986A2665F /* Pods_CondoDefect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A58360D218C64A8D73E35F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A234D97B6309656B6998D38C /* Pods-CondoDefect.debug.xcconfig */,
+				5F7F2D903625997A10014118 /* Pods-CondoDefect.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1850DAEA1CDCB71000DE7AC4 /* Build configuration list for PBXNativeTarget "CondoDefect" */;
 			buildPhases = (
+				CCF73CBE8AB8C644910186BA /* Check Pods Manifest.lock */,
 				1850DAD11CDCB70F00DE7AC4 /* Sources */,
 				1850DAD21CDCB70F00DE7AC4 /* Frameworks */,
 				1850DAD31CDCB70F00DE7AC4 /* Resources */,
+				E0C2E84061BEF26FE2BA377C /* Embed Pods Frameworks */,
+				85E61286AE77C862554404F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +176,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DC6BEE1CDCE9C10023B87B /* 44.jpg in Resources */,
+				18DC6BE91CDCE7B40023B87B /* 22.jpg in Resources */,
 				1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */,
 				1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */,
+				18DC6BEA1CDCE7B40023B87B /* 11.jpg in Resources */,
 				1850DADE1CDCB71000DE7AC4 /* Main.storyboard in Resources */,
+				18DC6BE81CDCE7B40023B87B /* 33.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85E61286AE77C862554404F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF73CBE8AB8C644910186BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C2E84061BEF26FE2BA377C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1850DAD11CDCB70F00DE7AC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1850DADB1CDCB71000DE7AC4 /* ViewController.swift in Sources */,
+				18DC6BE21CDCDF980023B87B /* ProjectViewController.swift in Sources */,
+				18220ED71CDCC194006C2F7B /* ShadowView.swift in Sources */,
+				18DC6BEC1CDCE8F50023B87B /* ProjectModel.swift in Sources */,
+				18DC6BE41CDCE10B0023B87B /* ProjectCollectionViewCell.swift in Sources */,
+				18220ED51CDCBEC1006C2F7B /* LoginViewController.swift in Sources */,
 				1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */,
 				1850DAD91CDCB71000DE7AC4 /* AppDelegate.swift in Sources */,
 			);
@@ -253,9 +360,11 @@
 		};
 		1850DAEB1CDCB71000DE7AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A234D97B6309656B6998D38C /* Pods-CondoDefect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CondoDefect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nuizoro.CondoDefect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,9 +373,11 @@
 		};
 		1850DAEC1CDCB71000DE7AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7F2D903625997A10014118 /* Pods-CondoDefect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CondoDefect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nuizoro.CondoDefect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +403,7 @@
 				1850DAEC1CDCB71000DE7AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
