@@ -89,6 +89,19 @@ class AddDefectViewController: UIViewController,UITableViewDataSource,UITableVie
 
     @IBAction func selectCategoryAction(sender: AnyObject) {
         
+        //self.addCategory()
+        
+    }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "POPOVER" {
+
+            let destinationNav:NavCategoryViewController =  segue.destinationViewController as! NavCategoryViewController
+            let catController:CategoryViewController = destinationNav.viewControllers[0] as! CategoryViewController
+            catController.refController = self
+            
+            
+        }
         
     }
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -114,13 +127,12 @@ class AddDefectViewController: UIViewController,UITableViewDataSource,UITableVie
         return cell
     }
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+
         let model:SubCategory = selectedCategory.listSubCategory.objectAtIndex(indexPath.row) as! SubCategory
         model.selected = !model.selected
         
         tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
-        
-        
+ 
     }
     @IBAction func openFullImage(sender: AnyObject) {
         let title = NSAttributedString(string: "", attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])

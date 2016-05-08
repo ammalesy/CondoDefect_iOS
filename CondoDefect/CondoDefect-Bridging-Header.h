@@ -12,3 +12,7 @@
 #import <NYTPhotoViewer/NYTPhotoCaptionView.h>
 #import <NYTPhotoViewer/NYTPhotosOverlayView.h>
 #import <NYTPhotoViewer/NYTPhotoTransitionAnimator.h>
+
+
+#import <WYPopoverController/WYPopoverController.h>
+#import <WYPopoverController/WYStoryboardPopoverSegue.h>

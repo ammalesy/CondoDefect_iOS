@@ -84,7 +84,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orV-yX-YKo">
-                                                    <rect key="frame" x="8" y="14" width="110" height="100"/>
+                                                    <rect key="frame" x="8" y="18" width="110" height="100"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="22-11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dEZ-k7-Tbs">
                                                             <rect key="frame" x="0.0" y="0.0" width="110" height="100"/>
@@ -107,37 +107,33 @@
                                                         <constraint firstAttribute="width" constant="151" id="urj-3G-wS8"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="หมวดงานที่ต้องแก้ไข" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9J-WN-9Ph">
                                                     <rect key="frame" x="126" y="43" width="151" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="รายการที่ต้องแก้ไข" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GO-tg-AEy">
                                                     <rect key="frame" x="126" y="72" width="151" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ผลการตรวจ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBk-Id-YUO">
                                                     <rect key="frame" x="126" y="100" width="151" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เหนือ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtd-lY-zZq">
                                                     <rect key="frame" x="285" y="15" width="174" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ประตู" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5f-py-RXw">
                                                     <rect key="frame" x="285" y="43" width="174" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เก็บงานสีสันบานประตู" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NqK-SS-HeH">
@@ -145,17 +141,17 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="X5q-rF-5fz"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ไม่ผ่าน" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSr-0h-pVy">
-                                                    <rect key="frame" x="315" y="100" width="49" height="21"/>
+                                                    <rect key="frame" x="315" y="100" width="46" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="4Rf-vT-7hJ"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red" translatesAutoresizingMaskIntoConstraints="NO" id="ijb-Od-OYp">
@@ -168,7 +164,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="VBk-Id-YUO" firstAttribute="height" secondItem="3GO-tg-AEy" secondAttribute="height" id="1vW-g4-JrU"/>
-                                                <constraint firstItem="orV-yX-YKo" firstAttribute="top" secondItem="baY-k8-hBp" secondAttribute="topMargin" constant="6" id="2j1-el-Tam"/>
+                                                <constraint firstItem="orV-yX-YKo" firstAttribute="top" secondItem="baY-k8-hBp" secondAttribute="topMargin" constant="10" id="2j1-el-Tam"/>
                                                 <constraint firstItem="C5f-py-RXw" firstAttribute="centerY" secondItem="a9J-WN-9Ph" secondAttribute="centerY" id="3nV-Xd-3XM"/>
                                                 <constraint firstItem="Gtd-lY-zZq" firstAttribute="leading" secondItem="XWs-46-QoT" secondAttribute="trailing" constant="8" id="7mh-Ln-4IV"/>
                                                 <constraint firstItem="NqK-SS-HeH" firstAttribute="top" secondItem="C5f-py-RXw" secondAttribute="bottom" constant="8" id="7ml-lL-QAs"/>
@@ -258,6 +254,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qrq-Pe-vDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2469" y="275"/>
+        </scene>
+        <!--Category-->
+        <scene sceneID="fRK-gC-6SM">
+            <objects>
+                <viewController storyboardIdentifier="CategoryViewController" automaticallyAdjustsScrollViewInsets="NO" id="MyB-6t-fUJ" customClass="CategoryViewController" customModule="CondoDefect" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jxP-Bp-yBh"/>
+                        <viewControllerLayoutGuide type="bottom" id="2L8-5L-cNi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OfX-q4-ojB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mKt-fb-7wU">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="OqY-66-hWf">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OqY-66-hWf" id="8Ud-78-m18">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mKt-fb-7wU" firstAttribute="leading" secondItem="OfX-q4-ojB" secondAttribute="leading" id="44H-dM-igM"/>
+                            <constraint firstItem="mKt-fb-7wU" firstAttribute="top" secondItem="jxP-Bp-yBh" secondAttribute="bottom" id="a5P-wp-7hb"/>
+                            <constraint firstItem="2L8-5L-cNi" firstAttribute="top" secondItem="mKt-fb-7wU" secondAttribute="bottom" id="cYP-dj-psz"/>
+                            <constraint firstAttribute="trailing" secondItem="mKt-fb-7wU" secondAttribute="trailing" id="mHe-dm-mSa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Category" id="8Ia-hL-R3h"/>
+                    <connections>
+                        <outlet property="tableView" destination="mKt-fb-7wU" id="9nd-qn-vGW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t3S-Ik-c7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4633" y="-536"/>
         </scene>
         <!--Add Defect View Controller-->
         <scene sceneID="RaA-7N-cSv">
@@ -425,6 +465,9 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="selectCategoryAction:" destination="ECn-C0-yXc" eventType="touchUpInside" id="TbA-PJ-N4c"/>
+                                                            <segue destination="Ztl-Dv-aBu" kind="popoverPresentation" identifier="POPOVER" popoverAnchorView="PUU-Vu-3dO" id="dDP-0z-30I">
+                                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                            </segue>
                                                         </connections>
                                                     </button>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWV-GA-WIR">
@@ -1587,6 +1630,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I37-bu-edt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1657" y="-409"/>
+        </scene>
+        <!--Nav Category View Controller-->
+        <scene sceneID="NaX-eV-Qeh">
+            <objects>
+                <navigationController storyboardIdentifier="NavCategoryViewController" automaticallyAdjustsScrollViewInsets="NO" id="Ztl-Dv-aBu" customClass="NavCategoryViewController" customModule="CondoDefect" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZAC-7X-ebs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MyB-6t-fUJ" kind="relationship" relationship="rootViewController" id="nrL-iv-zSO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VLn-sa-aKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3915" y="-536"/>
         </scene>
     </scenes>
     <resources>

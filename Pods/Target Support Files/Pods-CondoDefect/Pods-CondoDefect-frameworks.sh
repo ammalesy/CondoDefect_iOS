@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CondoDefect/Alamofire.framework"
   install_framework "Pods-CondoDefect/FLAnimatedImage.framework"
   install_framework "Pods-CondoDefect/NYTPhotoViewer.framework"
+  install_framework "Pods-CondoDefect/WYPopoverController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CondoDefect/Alamofire.framework"
   install_framework "Pods-CondoDefect/FLAnimatedImage.framework"
   install_framework "Pods-CondoDefect/NYTPhotoViewer.framework"
+  install_framework "Pods-CondoDefect/WYPopoverController.framework"
 fi

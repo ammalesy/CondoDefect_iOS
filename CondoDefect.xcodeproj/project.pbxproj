@@ -12,6 +12,9 @@
 		1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */; };
 		1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */; };
 		1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */; };
+		18546F0C1CDFAFAE00824CBC /* WYPopoverController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18546F0B1CDFAFAE00824CBC /* WYPopoverController.framework */; };
+		18546F0F1CDFB46300824CBC /* NavCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18546F0E1CDFB46300824CBC /* NavCategoryViewController.swift */; };
+		18546F111CDFB46F00824CBC /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18546F101CDFB46F00824CBC /* CategoryViewController.swift */; };
 		18B857401CDF9D4300EB3F12 /* NZPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */; };
 		18D17B331CDE4A8D00C0CE8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */; };
 		18D17B341CDE4A8D00C0CE8A /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */; };
@@ -52,6 +55,9 @@
 		1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1850DAE51CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1850DAE71CDCB71000DE7AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18546F0B1CDFAFAE00824CBC /* WYPopoverController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WYPopoverController.framework; path = "Pods/../build/Debug-iphoneos/WYPopoverController.framework"; sourceTree = "<group>"; };
+		18546F0E1CDFB46300824CBC /* NavCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavCategoryViewController.swift; sourceTree = "<group>"; };
+		18546F101CDFB46F00824CBC /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		18B8573C1CDF9BCB00EB3F12 /* NYTPhotoViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NYTPhotoViewer.framework; path = "Pods/../build/Debug-iphoneos/NYTPhotoViewer.framework"; sourceTree = "<group>"; };
 		18B8573E1CDF9C1300EB3F12 /* CondoDefect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CondoDefect-Bridging-Header.h"; sourceTree = "<group>"; };
 		18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NZPhoto.swift; sourceTree = "<group>"; };
@@ -93,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18546F0C1CDFAFAE00824CBC /* WYPopoverController.framework in Frameworks */,
 				18D17B681CDF951900C0CE8A /* MobileCoreServices.framework in Frameworks */,
 				47F71A8FD2AF35F6330F40C1 /* Pods_CondoDefect.framework in Frameworks */,
 			);
@@ -136,6 +143,15 @@
 				18D17B2B1CDE4A8D00C0CE8A /* Project */,
 			);
 			path = CondoDefect;
+			sourceTree = "<group>";
+		};
+		18546F0D1CDFB45100824CBC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18546F0E1CDFB46300824CBC /* NavCategoryViewController.swift */,
+				18546F101CDFB46F00824CBC /* CategoryViewController.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		18D17B291CDE4A8D00C0CE8A /* Login */ = {
@@ -200,6 +216,7 @@
 		18D17B5E1CDF833D00C0CE8A /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				18546F0D1CDFB45100824CBC /* Category */,
 				18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */,
 				18D17B5F1CDF833D00C0CE8A /* AddDefectViewController.swift */,
 				18D17B611CDF834F00C0CE8A /* Category.swift */,
@@ -212,6 +229,7 @@
 		2C587067E7855E3A6B192811 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18546F0B1CDFAFAE00824CBC /* WYPopoverController.framework */,
 				18B8573C1CDF9BCB00EB3F12 /* NYTPhotoViewer.framework */,
 				18D17B671CDF951900C0CE8A /* MobileCoreServices.framework */,
 				FA042357775AF69986A2665F /* Pods_CondoDefect.framework */,
@@ -361,7 +379,9 @@
 			files = (
 				18D17B571CDF2EE000C0CE8A /* NavDefectViewController.swift in Sources */,
 				18D17B5B1CDF711A00C0CE8A /* DefectTableViewCell.swift in Sources */,
+				18546F0F1CDFB46300824CBC /* NavCategoryViewController.swift in Sources */,
 				18D17B621CDF834F00C0CE8A /* Category.swift in Sources */,
+				18546F111CDFB46F00824CBC /* CategoryViewController.swift in Sources */,
 				18D17B3F1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift in Sources */,
 				18D17B391CDE4A8D00C0CE8A /* ProjectModel.swift in Sources */,
 				18D17B381CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift in Sources */,

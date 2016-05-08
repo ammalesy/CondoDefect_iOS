@@ -8,14 +8,17 @@ PODS:
     - FLAnimatedImage (~> 1.0.8)
     - NYTPhotoViewer/Core
   - NYTPhotoViewer/Core (1.0.1)
+  - WYPopoverController (0.2.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.3)
   - NYTPhotoViewer (~> 1.0.0)
+  - WYPopoverController (~> 0.2.2)
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   NYTPhotoViewer: 98e0a54a9d28e4a980fc4b611fd5e419ca89ad74
+  WYPopoverController: 00d879c25bddd1fd873dcc21aa98c8308d7f1555
 
 COCOAPODS: 0.39.0
