@@ -96,6 +96,13 @@ class RoomMenuViewController: UIViewController,UITableViewDelegate,UITableViewDa
         self.splitViewController?.showDetailViewController(destViewController, sender: nil)
     }
     
+    @IBAction func backAction(sender: AnyObject) {
+        
+        self.splitViewController?.dismissViewControllerAnimated(true, completion: { 
+            
+        })
+        
+    }
 
     /*
     // MARK: - Navigation

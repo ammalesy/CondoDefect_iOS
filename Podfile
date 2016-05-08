@@ -11,5 +11,8 @@ use_frameworks!
 pod 'Alamofire', '~> 3.3'
 
 pod 'NYTPhotoViewer', '~> 1.0.0'
+
+platform :ios, '6.0'
+pod 'WYPopoverController', '~> 0.2.2'
 end
 

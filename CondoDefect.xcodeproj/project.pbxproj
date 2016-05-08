@@ -12,6 +12,7 @@
 		1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */; };
 		1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */; };
 		1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */; };
+		18B857401CDF9D4300EB3F12 /* NZPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */; };
 		18D17B331CDE4A8D00C0CE8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */; };
 		18D17B341CDE4A8D00C0CE8A /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */; };
 		18D17B351CDE4A8D00C0CE8A /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2D1CDE4A8D00C0CE8A /* 22.jpg */; };
@@ -51,6 +52,9 @@
 		1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1850DAE51CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1850DAE71CDCB71000DE7AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B8573C1CDF9BCB00EB3F12 /* NYTPhotoViewer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NYTPhotoViewer.framework; path = "Pods/../build/Debug-iphoneos/NYTPhotoViewer.framework"; sourceTree = "<group>"; };
+		18B8573E1CDF9C1300EB3F12 /* CondoDefect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CondoDefect-Bridging-Header.h"; sourceTree = "<group>"; };
+		18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NZPhoto.swift; sourceTree = "<group>"; };
 		18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
 		18D17B2D1CDE4A8D00C0CE8A /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 		1850DAD71CDCB70F00DE7AC4 /* CondoDefect */ = {
 			isa = PBXGroup;
 			children = (
+				18B8573E1CDF9C1300EB3F12 /* CondoDefect-Bridging-Header.h */,
 				1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */,
 				1850DADC1CDCB71000DE7AC4 /* Main.storyboard */,
 				1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */,
@@ -195,6 +200,7 @@
 		18D17B5E1CDF833D00C0CE8A /* Add */ = {
 			isa = PBXGroup;
 			children = (
+				18B8573F1CDF9D4300EB3F12 /* NZPhoto.swift */,
 				18D17B5F1CDF833D00C0CE8A /* AddDefectViewController.swift */,
 				18D17B611CDF834F00C0CE8A /* Category.swift */,
 				18D17B631CDF837800C0CE8A /* SubCategory.swift */,
@@ -206,6 +212,7 @@
 		2C587067E7855E3A6B192811 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18B8573C1CDF9BCB00EB3F12 /* NYTPhotoViewer.framework */,
 				18D17B671CDF951900C0CE8A /* MobileCoreServices.framework */,
 				FA042357775AF69986A2665F /* Pods_CondoDefect.framework */,
 			);
@@ -366,6 +373,7 @@
 				18D17B601CDF833D00C0CE8A /* AddDefectViewController.swift in Sources */,
 				18D17B591CDF335000C0CE8A /* DefectModel.swift in Sources */,
 				18D17B641CDF837800C0CE8A /* SubCategory.swift in Sources */,
+				18B857401CDF9D4300EB3F12 /* NZPhoto.swift in Sources */,
 				18D17B501CDF179400C0CE8A /* NavRoomsViewController.swift in Sources */,
 				18D17B4E1CDF0EA200C0CE8A /* RoomMenuViewController.swift in Sources */,
 				1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */,
@@ -490,11 +498,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = CondoDefect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nuizoro.CondoDefect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CondoDefect/CondoDefect-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -505,11 +518,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = CondoDefect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nuizoro.CondoDefect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CondoDefect/CondoDefect-Bridging-Header.h";
 			};
 			name = Release;
 		};
