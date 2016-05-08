@@ -13,5 +13,7 @@ class ProjectModel: NSObject {
     var name:String = ""
     var imageName:String = ""
     var image:UIImage?
-
+    
+    var listBuilding:NSMutableArray!
+    
 }

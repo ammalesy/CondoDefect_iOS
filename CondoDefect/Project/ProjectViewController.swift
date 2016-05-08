@@ -21,18 +21,22 @@ class ProjectViewController: UIViewController,UICollectionViewDataSource,UIColle
         let model1 = ProjectModel()
         model1.name = "Sansiri"
         model1.imageName = "11.jpg"
+        model1.image = UIImage(named: model1.imageName)
         
         let model2 = ProjectModel()
         model2.name = "Lumpini"
         model2.imageName = "22.jpg"
+        model2.image = UIImage(named: model2.imageName)
         
         let model3 = ProjectModel()
         model3.name = "KPN"
         model3.imageName = "33.jpg"
+        model3.image = UIImage(named: model3.imageName)
         
         let model4 = ProjectModel()
         model4.name = "The Condo"
         model4.imageName = "44.jpg"
+        model4.image = UIImage(named: model4.imageName)
         
         listProject.addObject(model1)
         listProject.addObject(model2)
@@ -71,6 +75,16 @@ class ProjectViewController: UIViewController,UICollectionViewDataSource,UIColle
         let size = CGSizeMake((bounds.size.width/3)-21, 250)
         return size
         
+    }
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        let model:ProjectModel = listProject.objectAtIndex(indexPath.row) as! ProjectModel
+        
+        let controller:BuildingViewController = self.storyboard?.instantiateViewControllerWithIdentifier("BuildingViewController") as! BuildingViewController
+        controller.project = model
+        self.presentViewController(controller, animated: true) { 
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

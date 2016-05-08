@@ -9,5 +9,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 pod 'Alamofire', '~> 3.3'
+
+pod 'NYTPhotoViewer', '~> 1.0.0'
 end
 

@@ -7,26 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18220ED51CDCBEC1006C2F7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */; };
-		18220ED71CDCC194006C2F7B /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18220ED61CDCC194006C2F7B /* ShadowView.swift */; };
 		1850DAD91CDCB71000DE7AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */; };
 		1850DADE1CDCB71000DE7AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DADC1CDCB71000DE7AC4 /* Main.storyboard */; };
 		1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */; };
 		1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */; };
 		1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */; };
-		18DC6BE21CDCDF980023B87B /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */; };
-		18DC6BE41CDCE10B0023B87B /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */; };
-		18DC6BE81CDCE7B40023B87B /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE51CDCE7B40023B87B /* 33.jpg */; };
-		18DC6BE91CDCE7B40023B87B /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE61CDCE7B40023B87B /* 22.jpg */; };
-		18DC6BEA1CDCE7B40023B87B /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BE71CDCE7B40023B87B /* 11.jpg */; };
-		18DC6BEC1CDCE8F50023B87B /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */; };
-		18DC6BEE1CDCE9C10023B87B /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6BED1CDCE9C10023B87B /* 44.jpg */; };
+		18D17B331CDE4A8D00C0CE8A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */; };
+		18D17B341CDE4A8D00C0CE8A /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */; };
+		18D17B351CDE4A8D00C0CE8A /* 22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2D1CDE4A8D00C0CE8A /* 22.jpg */; };
+		18D17B361CDE4A8D00C0CE8A /* 33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2E1CDE4A8D00C0CE8A /* 33.jpg */; };
+		18D17B371CDE4A8D00C0CE8A /* 44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B2F1CDE4A8D00C0CE8A /* 44.jpg */; };
+		18D17B381CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B301CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift */; };
+		18D17B391CDE4A8D00C0CE8A /* ProjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B311CDE4A8D00C0CE8A /* ProjectModel.swift */; };
+		18D17B3A1CDE4A8D00C0CE8A /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B321CDE4A8D00C0CE8A /* ProjectViewController.swift */; };
+		18D17B3D1CDE4AEC00C0CE8A /* BuildingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B3C1CDE4AEC00C0CE8A /* BuildingViewController.swift */; };
+		18D17B3F1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B3E1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift */; };
+		18D17B411CDE53E800C0CE8A /* BuildingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B401CDE53E800C0CE8A /* BuildingModel.swift */; };
+		18D17B461CDE554800C0CE8A /* 11-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B421CDE554800C0CE8A /* 11-11.jpg */; };
+		18D17B471CDE554800C0CE8A /* 22-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B431CDE554800C0CE8A /* 22-11.jpg */; };
+		18D17B481CDE554800C0CE8A /* 33-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B441CDE554800C0CE8A /* 33-11.jpg */; };
+		18D17B491CDE554800C0CE8A /* 44-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D17B451CDE554800C0CE8A /* 44-11.jpeg */; };
+		18D17B4C1CDF02F700C0CE8A /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B4B1CDF02F700C0CE8A /* SplitViewController.swift */; };
+		18D17B4E1CDF0EA200C0CE8A /* RoomMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B4D1CDF0EA200C0CE8A /* RoomMenuViewController.swift */; };
+		18D17B501CDF179400C0CE8A /* NavRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B4F1CDF179400C0CE8A /* NavRoomsViewController.swift */; };
+		18D17B521CDF186200C0CE8A /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B511CDF186200C0CE8A /* RoomModel.swift */; };
+		18D17B551CDF2AA700C0CE8A /* DefectMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B541CDF2AA700C0CE8A /* DefectMainViewController.swift */; };
+		18D17B571CDF2EE000C0CE8A /* NavDefectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B561CDF2EE000C0CE8A /* NavDefectViewController.swift */; };
+		18D17B591CDF335000C0CE8A /* DefectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B581CDF335000C0CE8A /* DefectModel.swift */; };
+		18D17B5B1CDF711A00C0CE8A /* DefectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B5A1CDF711A00C0CE8A /* DefectTableViewCell.swift */; };
+		18D17B601CDF833D00C0CE8A /* AddDefectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B5F1CDF833D00C0CE8A /* AddDefectViewController.swift */; };
+		18D17B621CDF834F00C0CE8A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B611CDF834F00C0CE8A /* Category.swift */; };
+		18D17B641CDF837800C0CE8A /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B631CDF837800C0CE8A /* SubCategory.swift */; };
+		18D17B661CDF83A200C0CE8A /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D17B651CDF83A200C0CE8A /* CategoryManager.swift */; };
+		18D17B681CDF951900C0CE8A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D17B671CDF951900C0CE8A /* MobileCoreServices.framework */; };
 		47F71A8FD2AF35F6330F40C1 /* Pods_CondoDefect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA042357775AF69986A2665F /* Pods_CondoDefect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		18220ED61CDCC194006C2F7B /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		1850DAD51CDCB70F00DE7AC4 /* CondoDefect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CondoDefect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1850DAD81CDCB71000DE7AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1850DADD1CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,13 +51,34 @@
 		1850DAE21CDCB71000DE7AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1850DAE51CDCB71000DE7AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1850DAE71CDCB71000DE7AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
-		18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
-		18DC6BE51CDCE7B40023B87B /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
-		18DC6BE61CDCE7B40023B87B /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
-		18DC6BE71CDCE7B40023B87B /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
-		18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
-		18DC6BED1CDCE9C10023B87B /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		18D17B2D1CDE4A8D00C0CE8A /* 22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 22.jpg; sourceTree = "<group>"; };
+		18D17B2E1CDE4A8D00C0CE8A /* 33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 33.jpg; sourceTree = "<group>"; };
+		18D17B2F1CDE4A8D00C0CE8A /* 44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 44.jpg; sourceTree = "<group>"; };
+		18D17B301CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D17B311CDE4A8D00C0CE8A /* ProjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectModel.swift; sourceTree = "<group>"; };
+		18D17B321CDE4A8D00C0CE8A /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		18D17B3C1CDE4AEC00C0CE8A /* BuildingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingViewController.swift; sourceTree = "<group>"; };
+		18D17B3E1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D17B401CDE53E800C0CE8A /* BuildingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingModel.swift; sourceTree = "<group>"; };
+		18D17B421CDE554800C0CE8A /* 11-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-11.jpg"; sourceTree = "<group>"; };
+		18D17B431CDE554800C0CE8A /* 22-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22-11.jpg"; sourceTree = "<group>"; };
+		18D17B441CDE554800C0CE8A /* 33-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "33-11.jpg"; sourceTree = "<group>"; };
+		18D17B451CDE554800C0CE8A /* 44-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "44-11.jpeg"; sourceTree = "<group>"; };
+		18D17B4B1CDF02F700C0CE8A /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		18D17B4D1CDF0EA200C0CE8A /* RoomMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomMenuViewController.swift; sourceTree = "<group>"; };
+		18D17B4F1CDF179400C0CE8A /* NavRoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRoomsViewController.swift; sourceTree = "<group>"; };
+		18D17B511CDF186200C0CE8A /* RoomModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		18D17B541CDF2AA700C0CE8A /* DefectMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefectMainViewController.swift; sourceTree = "<group>"; };
+		18D17B561CDF2EE000C0CE8A /* NavDefectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavDefectViewController.swift; sourceTree = "<group>"; };
+		18D17B581CDF335000C0CE8A /* DefectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefectModel.swift; sourceTree = "<group>"; };
+		18D17B5A1CDF711A00C0CE8A /* DefectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefectTableViewCell.swift; sourceTree = "<group>"; };
+		18D17B5F1CDF833D00C0CE8A /* AddDefectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDefectViewController.swift; sourceTree = "<group>"; };
+		18D17B611CDF834F00C0CE8A /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		18D17B631CDF837800C0CE8A /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		18D17B651CDF83A200C0CE8A /* CategoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
+		18D17B671CDF951900C0CE8A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5F7F2D903625997A10014118 /* Pods-CondoDefect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondoDefect.release.xcconfig"; path = "Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect.release.xcconfig"; sourceTree = "<group>"; };
 		A234D97B6309656B6998D38C /* Pods-CondoDefect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CondoDefect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CondoDefect/Pods-CondoDefect.debug.xcconfig"; sourceTree = "<group>"; };
 		FA042357775AF69986A2665F /* Pods_CondoDefect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CondoDefect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D17B681CDF951900C0CE8A /* MobileCoreServices.framework in Frameworks */,
 				47F71A8FD2AF35F6330F40C1 /* Pods_CondoDefect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,22 +124,89 @@
 				1850DAE41CDCB71000DE7AC4 /* LaunchScreen.storyboard */,
 				1850DAE71CDCB71000DE7AC4 /* Info.plist */,
 				1850DADF1CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld */,
-				18220ED41CDCBEC1006C2F7B /* LoginViewController.swift */,
-				18220ED61CDCC194006C2F7B /* ShadowView.swift */,
-				18DC6BE11CDCDF980023B87B /* ProjectViewController.swift */,
-				18DC6BE31CDCE10B0023B87B /* ProjectCollectionViewCell.swift */,
-				18DC6BED1CDCE9C10023B87B /* 44.jpg */,
-				18DC6BE51CDCE7B40023B87B /* 33.jpg */,
-				18DC6BE61CDCE7B40023B87B /* 22.jpg */,
-				18DC6BE71CDCE7B40023B87B /* 11.jpg */,
-				18DC6BEB1CDCE8F50023B87B /* ProjectModel.swift */,
+				18D17B291CDE4A8D00C0CE8A /* Login */,
+				18D17B3B1CDE4AB300C0CE8A /* Building */,
+				18D17B531CDF2A9700C0CE8A /* Defect */,
+				18D17B4A1CDF02E500C0CE8A /* Room */,
+				18D17B2B1CDE4A8D00C0CE8A /* Project */,
 			);
 			path = CondoDefect;
+			sourceTree = "<group>";
+		};
+		18D17B291CDE4A8D00C0CE8A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B2A1CDE4A8D00C0CE8A /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18D17B2B1CDE4A8D00C0CE8A /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B2C1CDE4A8D00C0CE8A /* 11.jpg */,
+				18D17B2D1CDE4A8D00C0CE8A /* 22.jpg */,
+				18D17B2E1CDE4A8D00C0CE8A /* 33.jpg */,
+				18D17B2F1CDE4A8D00C0CE8A /* 44.jpg */,
+				18D17B301CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift */,
+				18D17B311CDE4A8D00C0CE8A /* ProjectModel.swift */,
+				18D17B321CDE4A8D00C0CE8A /* ProjectViewController.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		18D17B3B1CDE4AB300C0CE8A /* Building */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B3C1CDE4AEC00C0CE8A /* BuildingViewController.swift */,
+				18D17B3E1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift */,
+				18D17B401CDE53E800C0CE8A /* BuildingModel.swift */,
+				18D17B421CDE554800C0CE8A /* 11-11.jpg */,
+				18D17B431CDE554800C0CE8A /* 22-11.jpg */,
+				18D17B441CDE554800C0CE8A /* 33-11.jpg */,
+				18D17B451CDE554800C0CE8A /* 44-11.jpeg */,
+			);
+			path = Building;
+			sourceTree = "<group>";
+		};
+		18D17B4A1CDF02E500C0CE8A /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B4B1CDF02F700C0CE8A /* SplitViewController.swift */,
+				18D17B4D1CDF0EA200C0CE8A /* RoomMenuViewController.swift */,
+				18D17B4F1CDF179400C0CE8A /* NavRoomsViewController.swift */,
+				18D17B511CDF186200C0CE8A /* RoomModel.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		18D17B531CDF2A9700C0CE8A /* Defect */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B5E1CDF833D00C0CE8A /* Add */,
+				18D17B541CDF2AA700C0CE8A /* DefectMainViewController.swift */,
+				18D17B561CDF2EE000C0CE8A /* NavDefectViewController.swift */,
+				18D17B581CDF335000C0CE8A /* DefectModel.swift */,
+				18D17B5A1CDF711A00C0CE8A /* DefectTableViewCell.swift */,
+			);
+			path = Defect;
+			sourceTree = "<group>";
+		};
+		18D17B5E1CDF833D00C0CE8A /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				18D17B5F1CDF833D00C0CE8A /* AddDefectViewController.swift */,
+				18D17B611CDF834F00C0CE8A /* Category.swift */,
+				18D17B631CDF837800C0CE8A /* SubCategory.swift */,
+				18D17B651CDF83A200C0CE8A /* CategoryManager.swift */,
+			);
+			path = Add;
 			sourceTree = "<group>";
 		};
 		2C587067E7855E3A6B192811 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18D17B671CDF951900C0CE8A /* MobileCoreServices.framework */,
 				FA042357775AF69986A2665F /* Pods_CondoDefect.framework */,
 			);
 			name = Frameworks;
@@ -150,6 +256,7 @@
 				TargetAttributes = {
 					1850DAD41CDCB70F00DE7AC4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T827QP7R38;
 					};
 				};
 			};
@@ -176,13 +283,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DC6BEE1CDCE9C10023B87B /* 44.jpg in Resources */,
-				18DC6BE91CDCE7B40023B87B /* 22.jpg in Resources */,
+				18D17B491CDE554800C0CE8A /* 44-11.jpeg in Resources */,
+				18D17B371CDE4A8D00C0CE8A /* 44.jpg in Resources */,
+				18D17B461CDE554800C0CE8A /* 11-11.jpg in Resources */,
+				18D17B351CDE4A8D00C0CE8A /* 22.jpg in Resources */,
 				1850DAE61CDCB71000DE7AC4 /* LaunchScreen.storyboard in Resources */,
+				18D17B471CDE554800C0CE8A /* 22-11.jpg in Resources */,
 				1850DAE31CDCB71000DE7AC4 /* Assets.xcassets in Resources */,
-				18DC6BEA1CDCE7B40023B87B /* 11.jpg in Resources */,
+				18D17B361CDE4A8D00C0CE8A /* 33.jpg in Resources */,
+				18D17B481CDE554800C0CE8A /* 33-11.jpg in Resources */,
 				1850DADE1CDCB71000DE7AC4 /* Main.storyboard in Resources */,
-				18DC6BE81CDCE7B40023B87B /* 33.jpg in Resources */,
+				18D17B341CDE4A8D00C0CE8A /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,13 +352,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DC6BE21CDCDF980023B87B /* ProjectViewController.swift in Sources */,
-				18220ED71CDCC194006C2F7B /* ShadowView.swift in Sources */,
-				18DC6BEC1CDCE8F50023B87B /* ProjectModel.swift in Sources */,
-				18DC6BE41CDCE10B0023B87B /* ProjectCollectionViewCell.swift in Sources */,
-				18220ED51CDCBEC1006C2F7B /* LoginViewController.swift in Sources */,
+				18D17B571CDF2EE000C0CE8A /* NavDefectViewController.swift in Sources */,
+				18D17B5B1CDF711A00C0CE8A /* DefectTableViewCell.swift in Sources */,
+				18D17B621CDF834F00C0CE8A /* Category.swift in Sources */,
+				18D17B3F1CDE53A900C0CE8A /* BuildingCollectionViewCell.swift in Sources */,
+				18D17B391CDE4A8D00C0CE8A /* ProjectModel.swift in Sources */,
+				18D17B381CDE4A8D00C0CE8A /* ProjectCollectionViewCell.swift in Sources */,
+				18D17B3A1CDE4A8D00C0CE8A /* ProjectViewController.swift in Sources */,
+				18D17B411CDE53E800C0CE8A /* BuildingModel.swift in Sources */,
+				18D17B661CDF83A200C0CE8A /* CategoryManager.swift in Sources */,
+				18D17B4C1CDF02F700C0CE8A /* SplitViewController.swift in Sources */,
+				18D17B331CDE4A8D00C0CE8A /* LoginViewController.swift in Sources */,
+				18D17B601CDF833D00C0CE8A /* AddDefectViewController.swift in Sources */,
+				18D17B591CDF335000C0CE8A /* DefectModel.swift in Sources */,
+				18D17B641CDF837800C0CE8A /* SubCategory.swift in Sources */,
+				18D17B501CDF179400C0CE8A /* NavRoomsViewController.swift in Sources */,
+				18D17B4E1CDF0EA200C0CE8A /* RoomMenuViewController.swift in Sources */,
 				1850DAE11CDCB71000DE7AC4 /* CondoDefect.xcdatamodeld in Sources */,
+				18D17B551CDF2AA700C0CE8A /* DefectMainViewController.swift in Sources */,
 				1850DAD91CDCB71000DE7AC4 /* AppDelegate.swift in Sources */,
+				18D17B3D1CDE4AEC00C0CE8A /* BuildingViewController.swift in Sources */,
+				18D17B521CDF186200C0CE8A /* RoomModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +488,8 @@
 			baseConfigurationReference = A234D97B6309656B6998D38C /* Pods-CondoDefect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = CondoDefect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,6 +503,8 @@
 			baseConfigurationReference = 5F7F2D903625997A10014118 /* Pods-CondoDefect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = CondoDefect/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
